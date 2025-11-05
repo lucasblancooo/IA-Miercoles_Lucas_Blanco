@@ -10,7 +10,7 @@ nombre = st.text_input("Cual es tu nombre?")
 if st.button("Saludar!"):
     st.write(f"Hola {nombre}! Bienvenido a talento tech")
 
-MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b']
+MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'llama3-8b']
 
 def configurar_pagina():
     st.title("Mi Chat Lucas Blanco")
@@ -81,4 +81,5 @@ def main():
                     st.rerun()
 
 if __name__ == "__main__":
+
     main()
